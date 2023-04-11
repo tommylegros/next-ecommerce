@@ -33,6 +33,7 @@ CREATE TABLE "User" (
     "email" TEXT,
     "emailVerified" TIMESTAMP(3),
     "image" TEXT,
+    "stripeCustomerId" TEXT,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
